@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+/*NAV */
+
+.logo{
+    width: 50px;
+}
+
+.estilo-nav{
+    background-color: 	#51E0C1;
+    color: 	#008080;
+    border-bottom: 2px solid #008080;
+}
+
+.nav-item{
+    padding-left: 30px;
+  }
+
+.nav-item a{
+    color: 	#008080;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    border-bottom: 4px solid #ffffff00;
+}
+
+.nav-item a:hover{
+    color: 	#008080;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    border-bottom: 4px solid #008080;
+}
+
+/*ITEM-1 */
+#item-1{
+    background: url('../img/backgrund.png') no-repeat ;
+    height: 80vh;
+}
+
+.container-1 h1{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+/*ITEM-2 */
+
+.card-box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+.card-img-top{
+    width: 250px !important;
+    align-self: center;
+}
+
+.card-title{
+    color: #303A50 ;
+}
+
+#item-3{
+    background-color: #51E0C1;
+}
+
+#item-3 h2{
+    padding-top: 50px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+
+#item-3 p{
+    padding-top: 10px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+#item-3 button{
+    margin-top: 30px;
+    font-family: 'Acme', sans-serif; 
+    margin-bottom: 30px;  
+}
+
+footer{
+    background: linear-gradient( rgba(24, 24, 23, 0.904), rgb(11, 26, 58)), url('../img/backgrund.png') no-repeat center;
+    padding: 50px;
+}
+
+.footer h6{
+    font-family: 'Acme', sans-serif;   
+    color: white;
+    font-size: 20px;
+}
+
+.footer ul li a{
+    font-family: 'Acme', sans-serif;   
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer .col-12{
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;   
+    color: white;
+    font-size: 15px;
+}
