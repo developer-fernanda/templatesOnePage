@@ -1,0 +1,108 @@
+/* layout */
+
+@font-face {
+    font-family: Barrio;
+    src: url(https://fonts.google.com/specimen/Noto+Sans+JP#standard-styles)
+}
+
+.body {
+    font-family: Thin;
+    background-color: #D3D3D3;
+}
+
+
+/* content navbar */
+
+.content-navbar {
+    width: 100% !important;
+    background-color: #333;
+    padding: 0 20px !important;
+}
+
+.bi-list {
+    color: #D3D3D3;
+    width: 30px;
+    height: 30px;
+}
+
+.bi-github {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.items-list {
+    margin-right: 100px;
+}
+
+
+/* content banner */
+
+.content-banner {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+
+/* content info */
+
+.content-info {
+    background-color: white;
+    padding: 100px 0;
+}
+
+
+/* content form */
+
+.content-form {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.box-acess ul a {
+    text-decoration: none;
+}
+
+.box-acess ul a li {
+    margin: 4px;
+}
+
+.box-acess ul a li:hover {
+    color: #D3D3D3;
+}
+
+
+/* content footer */
+
+.content-footer {
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* tipografia */
+
+.nav-list .items-list a {
+    color: white;
+    padding: 20px 35px!important;
+    margin: auto 25px;
+    font-size: 18px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+}
+
+.nav-list .items-list a:hover {
+    background-color: rgb(70, 70, 70);
+    border-bottom: 5px solid white;
+}
+
+.content-footer h2,
+.content-footer p,
+.content-footer ul li {
+    color: white;
+}
+
+hr {
+    background: #D3D3D3
+}
