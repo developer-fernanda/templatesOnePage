@@ -41,12 +41,16 @@ body{
 #item-1{
     background: url('../img/backgrund.png') no-repeat ;
     height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container-1 h1{
     text-align: center;
-    padding-top: 150px;
-    color: white;
+    padding-top: 250px;
+    color: #C98C81;
     font-family: 'Acme', sans-serif;
 }
 
