@@ -39,7 +39,7 @@ body{
 
 /*ITEM-1 */
 #item-1{
-    background: url('../img/backgrund.png') no-repeat ;
+    background: url('../img/background.png') no-repeat ;
     height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
