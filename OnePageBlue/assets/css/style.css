@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+body{
+   font-family: 'Merriweather', serif !important;
+}
+
+/*NAV */
+
+.logo{
+    width: 50px;
+}
+
+.estilo-nav{
+  background-color: rgba(33, 126, 155, 0.6);
+  color: white;
+}
+
+
+.nav-item a{
+    color: 	white;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 4px solid #ffffff00;
+    padding: 10px;
+}
+
+.nav-item a:hover{
+    color: 	#6495ED;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/*ITEM-1 */
+
+.carousel-img-1{
+    background: url('../img/img-1.jpg') no-repeat center center; 
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-img-2{
+    background: url('../img/img-2.jpg') no-repeat center center ; 
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+/*ITEM-2 */
+
+.container-2{
+  padding: 60px;
+}
+
+.icone{
+  color: #6495ED;
+  font-size: 60px;
+  align-self: center;
+}
+
+.container-2 p{
+  padding: 30px;
+  text-align: center;
+  color: #696969;
+  font-family: 'Acme', sans-serif;
+}
+
+.container-2 h2{
+    padding: 20px;
+    color: #696969;
+ font-family: 'Acme', sans-serif;
+}
+
+
+/*ITEM 3 */
+
+#item-3{
+    background-color: 	#6495ED;
+}
+
+.img-fluid{
+  padding: 40px;
+}
+
+#item-3 h2{
+    padding-top: 80px;
+    color: white;
+ font-family: 'Acme', sans-serif;
+}
+
+.btn-icone{
+    background-color: white ;
+    border-radius: 30px !important;
+    color:#6495ED;
+    text-decoration: none;
+}
+.btn-icone:hover{
+   color: #696969;
+}
+
+#item-3 p{
+    padding-top: 10px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+
+/*Footer*/
+
+footer{
+   background: linear-gradient( rgba(24, 92, 170, 0.904), rgb(39, 57, 95)), url('../img/img-footer.jpg')  center;
+    padding: 50px;
+}
+
+.footer h6{
+ font-family: 'Acme', sans-serif;   
+  color: white;
+  font-size: 20px;
+}
+
+.footer ul li a{
+ font-family: 'Acme', sans-serif;   
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer ul li a:hover{
+   font-family: 'Acme', sans-serif;   
+    color: #6495ED;
+   border-bottom: 1px solid #6495ED;
+ 
+  }
