@@ -15,7 +15,7 @@
 
 .content-navbar {
     width: 100% !important;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.6);
     padding: 0 20px !important;
 }
 
@@ -39,16 +39,15 @@
 /* content banner */
 
 .content-banner {
-        background: url('../img/background.jpg') no-repeat ;
-        height: 100vh;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
+    background: url('../img/background.jpg') no-repeat center;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.content-banner h1{
+.content-banner h1 {
     padding-top: 300px;
     color: white;
 }
@@ -69,16 +68,17 @@
     margin-bottom: 150px;
 }
 
-.box-acess ul a {
-    text-decoration: none;
+.content-form {
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
-.box-acess ul a li {
-    margin: 4px;
+.card-form {
+    transition: all 2s;
 }
 
-.box-acess ul a li:hover {
-    color: #D3D3D3;
+.card-form:hover {
+    transform: scale(1.05);
 }
 
 
@@ -88,6 +88,24 @@
     background-color: #333;
     height: 100%;
     width: 100%;
+}
+
+.box-acess ul a {
+    text-decoration: none;
+}
+
+.box-acess ul a li {
+    margin: 4px;
+}
+
+.box-acess ul a li:hover,
+.contact:hover {
+    color: #D3D3D3;
+}
+
+.contact {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -116,7 +134,7 @@ hr {
     background: #D3D3D3
 }
 
-.content-footer a{
+.content-footer a {
     color: white;
     text-decoration: none !important;
 }
