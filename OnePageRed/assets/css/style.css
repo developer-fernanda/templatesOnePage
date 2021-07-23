@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme		#B22222#8A2BE2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&display=swap');
+
 
 body{
-    font-family: 'Acme', sans-serif;
+   font-family: 'Merriweather', serif;
 }
 
 /*NAV */
@@ -22,7 +23,7 @@ body{
 .nav-item a{
     color: 	white;
     text-decoration: none;
-    font-family: 'Acme', sans-serif;
+   font-family: 'Merriweather', serif;
     font-size: 20px;
     margin-left: 30px;
     border-bottom: 4px solid #ffffff00;
@@ -32,7 +33,7 @@ body{
 .nav-item a:hover{
     color: 	#B22222;
     text-decoration: none;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
     font-size: 20px;
 background-color: white;
 border-radius: 30px;
@@ -43,20 +44,24 @@ border-radius: 30px;
 .container-1 h2{
     padding-top: 50px;
     color: #696969;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 .container-1 p{
     margin-top: 30px;
     color: #696969;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
     text-align: justify;
 }
 
 .container-1 a{
     margin-top: 20px;
     color: white;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+.container-1 a:hover{
+    color: white;
 }
 
 .container-1 i{
@@ -65,9 +70,17 @@ border-radius: 30px;
 
 .img-carousel{
     padding: 70px;
+    width: 100%;
+}
+
+h5{
+    color: white !important;
+    font-size: 30px !important;
+    font-family: 'Merriweather', serif;
 }
 
 /*ITEM-2 */
+
 .container-2 .btn-radius{
 background-color: #B22222;
 color: white;
@@ -82,13 +95,13 @@ align-self: center;
 .container-2 p{
     padding: 30px;
     color: #696969;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 .container-2 h2{
     padding: 20px;
     color: #696969;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 
@@ -96,7 +109,7 @@ align-self: center;
 
 .card-box{   
     padding: 20px;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
     background-color: 	#B22222 !important;
     border: none !important;
 }
@@ -112,7 +125,12 @@ align-self: center;
 
 .btn-click{
 background-color: #696969;
+color: white;
 border-radius: 30px !important;
+}
+
+.btn-click:hover{
+color: white;
 }
 
 .btn-icone{
@@ -132,19 +150,19 @@ border-radius: 30px !important;
 #item-3 h2{
     padding-top: 80px;
     color: white;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 
 #item-3 p{
     padding-top: 10px;
     color: white;
-    font-family: 'Acme', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 #item-3 button{
     margin-top: 30px;
-    font-family: 'Acme', sans-serif; 
+  font-family: 'Merriweather', serif; 
     margin-bottom: 30px;  
 }
 
@@ -156,13 +174,22 @@ footer{
 }
 
 .footer h6{
-    font-family: 'Acme', sans-serif;   
-    color: white;
-    font-size: 20px;
+  font-family: 'Merriweather', serif;   
+  color: white;
+  font-size: 20px;
 }
 
-.footer ul li{
-    font-family: 'Acme', sans-serif;   
-    color: white;
-    font-size: 20px;
+.footer ul li a{
+  font-family: 'Merriweather', serif;   
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
 }
+
+.footer ul li a:hover{
+    font-family: 'Merriweather', serif;   
+    color: #B22222;
+   border-bottom: 1px solid #B22222;
+ 
+  }

@@ -57,18 +57,29 @@
 
 .content-info {
     background-color: white;
-    padding: 100px 0;
+    padding: 50px 0;
+}
+
+.content-info h2 {
+    padding-bottom: 20px;
+}
+
+.content-info p,
+.content-info ul,
+.card-text {
+   font-size: 20px;
+   text-align: justify;
 }
 
 
-/* content form */
+/* content card */
 
-.content-form {
+.content-card {
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-.content-form {
+.content-card {
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -124,10 +135,19 @@
     border-bottom: 5px solid white;
 }
 
-.content-footer h2,
-.content-footer p,
-.content-footer ul li {
+.content-footer h2{
     color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+.content-footer p,
+.content-footer ul li,
+.content-footer a {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
 }
 
 hr {
