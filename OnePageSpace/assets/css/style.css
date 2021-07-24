@@ -1,0 +1,174 @@
+/* layout */
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.body {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+
+/* header */
+
+.content-header {
+    background: white;
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.content-header .content-icons {
+    margin: 0px 10px;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+}
+
+.content-icons .icons-header {
+    width: 18px;
+    margin: 0 10px
+}
+
+@media (max-width: 768px) {
+    .content-icons .icons-header {
+        width: 10px;
+        margin: 0 3px
+    }
+    .content-header {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .content-header .content-icons {
+        margin: 0px 5px;
+        padding: 10px 3px;
+        font-size: 8px;
+    }
+}
+
+.content-header a:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+/* nav */
+
+.content-nav {
+    width: 100%;
+    background: white;
+    padding: 0 16px !important;
+    padding-top: 20px !important;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    width: 60px;
+    color: black;
+    margin: 10px 20px;
+}
+
+.menu-list {
+    width: 45px;
+    color: black;
+}
+
+.content-nav .items-nav a {
+    color: black;
+    text-decoration: none !important;
+}
+
+.content-nav .items-nav a li {
+    margin: 25px 10px 0px 10px;
+    padding: 15px 25px;
+}
+
+.content-nav .items-nav a li:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+/* section 1 */
+
+.content-banner {
+    /* center vertical */
+    display: table;
+    width: 100%;
+    /* ---------------- */
+    height: 500px;
+    background: url("../img/banner.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-apresentation {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* content card */
+
+.content-cards {
+    margin: 100px 0px;
+    background: white;
+}
+
+.content-cards .cards {
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.315);
+    border-radius: 5px;
+    margin: 25px 5px;
+    height: 380px;
+    transition: box-shadow 1.5s;
+}
+
+.content-cards .cards:hover {
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.63);
+}
+
+.content-cards .cards .content-img {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.content-cards .cards .img-card {
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+
+.content-cards .cards .content-info {
+    padding: 15px 10px;
+}
+
+.content-cards .cards .content-info ul li {
+    list-style: none;
+    padding: 3px 0;
+}
+
+
+/* content contact */
+
+.content-contact {
+    margin: 100px 0;
+}
+
+.content-contact .input-contact {
+    height: 40px;
+}
+
+.content-contact .button-contact {
+    background: red;
+    padding: 10px 60px;
+    color: white;
+}
+
+.content-contact .button-contact:hover {
+    background: rgba(255, 0, 0, 0.815);
+    color: white;
+}
+
+
+/* footer */
+
+
+/* tipografia */
