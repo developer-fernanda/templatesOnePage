@@ -179,7 +179,7 @@ footer{
   font-size: 20px;
 }
 
-.footer ul li a{
+.list-items a {
   font-family: 'Merriweather', serif;   
   color: white;
   font-size: 20px;
@@ -187,9 +187,15 @@ footer{
   text-decoration: none;
 }
 
-.footer ul li a:hover{
+.list-items a:hover{
     font-family: 'Merriweather', serif;   
     color: #B22222;
-   border-bottom: 1px solid #B22222;
- 
+    text-decoration: none !important;
   }
+
+
+.footer .col-12{
+  font-family: 'Merriweather', serif;   
+  color: white;
+  font-size: 15px;
+}

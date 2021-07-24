@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--COR DO TOPO-->
     <meta name="theme-color" content="#">
-    <title>One Page Kids </title>
+    <title>One Page Blue </title>
     <!--ICONE-->
     <link rel="icon" type="image/x-icon" href="#" />
     <!-- CSS -->
@@ -52,30 +52,26 @@
     </header>
     <!--Item 1-->
     <section id="item-1">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner ">
-                        <div class="carousel-item active">
-                            <div class="d-block w-100 carousel-img-1"> </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="d-block w-100 carousel-img-2"></div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <i class="fas fa-chevron-circle-left h1"></i>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <i class="fas fa-chevron-circle-right h1"></i>
-                    </a>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class="d-block w-100 carousel-img-1"> </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block w-100 carousel-img-2"></div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <i class="fas fa-chevron-circle-left h1"></i>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <i class="fas fa-chevron-circle-right h1"></i>
+            </a>
         </div>
     </section>
 
@@ -130,17 +126,54 @@
                 </div>
                 <!--Texto-->
                 <div class="col-md-6">
-                    <h2>Lorem </h2>
-                    <p class="d-flex">
-                        <a target="_blank" class="btn btn-icone" href="https://www.instagram.com/"> <i
-                                class="fab fa-instagram"></i>
-                        </a>
-                        <a target="_blank" class="btn btn-icone mx-3" href="https://www.facebook.com/"><i
-                                class="fab fa-facebook-square"></i>
-                        </a>
-                        <a target="_blank" class="btn btn-icone" href="https://www.linkedin.com/in/"><i
-                                class="fab fa-linkedin-in"></i> </a>
+                    <h2 class="ml-2">Lorem </h2>
+                    <p class="ml-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quo qui saepe vitae suscipit
+                        deleniti iure cumque quam provident facere fugiat distinctio, officia voluptatibus possimus
+                        assumenda. Veritatis aperiam omnis mollitia.
                     </p>
+                    <div class="d-flex">
+                        <div class="col-lg-6">
+                            <p>
+                                <!--Button Collapse-->
+                                <button class="btn btn-outline-light" type="button" data-toggle="collapse"
+                                    data-target="#collapseExample1" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    <i class="fas fa-plus mr-2"></i> Opção 1
+                                </button>
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                                <!--Texto Collapse-->
+                                <div class="card card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad
+                                    squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                    sapiente
+                                    ea proident.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>
+                                <!--Button Collapse-->
+                                <button class="btn btn-outline-light" type="button" data-toggle="collapse"
+                                    data-target="#collapseExample2" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    <i class="fas fa-plus mr-2"></i> Opção 2
+                                </button>
+                            </p>
+                            <div class="collapse" id="collapseExample2">
+                                <!--Texto Collapse-->
+                                <div class="card card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad
+                                    squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                    sapiente
+                                    ea proident.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,15 +195,21 @@
                                 class="fab fa-linkedin-in"></i> </a>
                     </p>
                 </div>
-                <div class="col-md-4 d-flex flex-column align-items-center">
+                <div class="col-md-4 d-flex flex-column align-items-center list-items">
                     <h6>List item</h6>
                     <ul>
-                        <li> <a href="#item-1"> Item 1 </a></li>
-                        <li> <a href="#item-2"> Item 2 </a></li>
-                        <li> <a href="#item-3"> Item 3 </a></li>
-
+                        <a href="#item-1">
+                            <li> Item 1 </li>
+                        </a>
+                        <a href="#item-2">
+                            <li> Item 2 </li>
+                        </a>
+                        <a href="#item-3">
+                            <li> Item 3 </li>
+                        </a>
                     </ul>
                 </div>
+                <div class="col-12 text-center"> Copyright 2021</div>
             </div>
         </div>
 

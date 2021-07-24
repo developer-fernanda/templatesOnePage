@@ -41,7 +41,7 @@ body{
 
 .carousel-img-1{
     background: url('../img/img-1.jpg') no-repeat center center; 
-    height: 100vh;
+    height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,7 +50,7 @@ body{
 
 .carousel-img-2{
     background: url('../img/img-2.jpg') no-repeat center center ; 
-    height: 100vh;
+    height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -99,20 +99,12 @@ body{
  font-family: 'Acme', sans-serif;
 }
 
-.btn-icone{
-    background-color: white ;
-    border-radius: 30px !important;
-    color:#6495ED;
-    text-decoration: none;
-}
-.btn-icone:hover{
-   color: #696969;
-}
 
 #item-3 p{
     padding-top: 10px;
     color: white;
     font-family: 'Acme', sans-serif;
+    text-align: justify;
 }
 
 
@@ -123,13 +115,14 @@ footer{
     padding: 50px;
 }
 
-.footer h6{
+.footer h6,
+.footer .col-12{
  font-family: 'Acme', sans-serif;   
   color: white;
   font-size: 20px;
 }
 
-.footer ul li a{
+.list-items a{
  font-family: 'Acme', sans-serif;   
   color: white;
   font-size: 20px;
@@ -137,9 +130,20 @@ footer{
   text-decoration: none;
 }
 
-.footer ul li a:hover{
+.list-items a:hover{
    font-family: 'Acme', sans-serif;   
     color: #6495ED;
    border-bottom: 1px solid #6495ED;
  
   }
+
+  .btn-icone{
+    background-color: white ;
+    border-radius: 30px !important;
+    color:#6495ED;
+    text-decoration: none;
+}
+
+.btn-icone:hover{
+   color: #696969;
+}
