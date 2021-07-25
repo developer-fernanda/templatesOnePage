@@ -9,7 +9,7 @@
 /* header */
 
 .content-header {
-    background: white;
+    background: #23967D;
     display: flex !important;
     justify-content: flex-end !important;
 }
@@ -18,7 +18,7 @@
     margin: 0px 10px;
     padding: 10px 10px;
     text-decoration: none !important;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .content-icons .icons-header {
@@ -43,8 +43,7 @@
 }
 
 .content-header a:hover {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: #4b254e;
 }
 
 
@@ -77,11 +76,13 @@
 .content-nav .items-nav a li {
     margin: 25px 10px 0px 10px;
     padding: 15px 25px;
+    color: black;
+    border-bottom: 4px solid #202c2a00;
 }
 
 .content-nav .items-nav a li:hover {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    border-bottom: 4px solid #23967D;
+    color: black;
 }
 
 
@@ -111,6 +112,8 @@
 .content-cards {
     margin: 100px 0px;
     background: white;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .content-cards .cards {
@@ -119,6 +122,7 @@
     margin: 25px 5px;
     height: 380px;
     transition: box-shadow 1.5s;
+    background: #23967D;
 }
 
 .content-cards .cards:hover {
@@ -126,18 +130,29 @@
 }
 
 .content-cards .cards .content-img {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     text-align: center;
 }
 
 .content-cards .cards .img-card {
     width: 130px;
-    height: 130px;
+    height: 125px;
     margin: 10px;
+    color: #967C2A;
 }
 
 .content-cards .cards .content-info {
     padding: 15px 10px;
+}
+
+.button-info {
+    background: #4b254e !important;
+    color: white !important;
+    padding: 8px !important;
+}
+
+.button-info:hover {
+    background: #5f2f63 !important;
 }
 
 .content-cards .cards .content-info ul li {
@@ -157,13 +172,13 @@
 }
 
 .content-contact .button-contact {
-    background: red;
+    background: #4b254e;
     padding: 10px 60px;
     color: white;
 }
 
 .content-contact .button-contact:hover {
-    background: rgba(255, 0, 0, 0.815);
+    background: #5f2f63;
     color: white;
 }
 
@@ -172,3 +187,8 @@
 
 
 /* tipografia */
+
+.content-img p,
+.content-info {
+    color: white;
+}
