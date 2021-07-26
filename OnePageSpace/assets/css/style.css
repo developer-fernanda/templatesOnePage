@@ -9,7 +9,7 @@
 /* header */
 
 .content-header {
-    background: #23967D;
+    background: #816FE8;
     display: flex !important;
     justify-content: flex-end !important;
 }
@@ -53,7 +53,7 @@
     width: 100%;
     background: white;
     padding: 0 16px !important;
-    padding-top: 20px !important;
+    padding-top: 10px !important;
     border-bottom: 1px solid black;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .content-nav .items-nav a li:hover {
-    border-bottom: 4px solid #23967D;
+    border-bottom: 4px solid #816FE8;
     color: black;
 }
 
@@ -94,11 +94,23 @@
     width: 100%;
     /* ---------------- */
     height: 500px;
-    background: url("../img/banner.png") no-repeat center;
+    background: url("../img/img-banner.png") no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
+@media (max-width: 768px) {
+    .content-banner {
+        /* center vertical */
+        display: table;
+        width: 100%;
+        /* ---------------- */
+        height: 500px;
+        background: url("../img/img-banner-sm.png") no-repeat center;
+        background-size: cover;
+        /* background-attachment: fixed; */
+    } 
+}
 .content-apresentation {
     text-align: center;
     color: white;
@@ -111,53 +123,65 @@
 
 .content-cards {
     margin: 100px 0px;
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
 }
 
 .content-cards .cards {
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.315);
+    /* box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.315); */
     border-radius: 5px;
-    margin: 25px 5px;
-    height: 380px;
-    transition: box-shadow 1.5s;
-    background: #23967D;
+    margin: 15px 0px;
+    /* height: 380px; */
+    transition: box-shadow 1.0s;
+    background: #F9F9FA;
 }
 
 .content-cards .cards:hover {
-    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 0px 15px 3px rgba(129, 111, 232, 0.575);
 }
 
-.content-cards .cards .content-img {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+.content-img{
+    padding-top: 20px !important ;
+    border-bottom: 1px solid #816FE8;
+    margin: 30px; 
+
+}
+
+.content-img p{
+    padding-top: 20px !important ;
     text-align: center;
+    color: #816FE8 !important;
+    font-size: 30px;
+  
 }
 
-.content-cards .cards .img-card {
-    width: 130px;
-    height: 125px;
-    margin: 10px;
-    color: #967C2A;
+
+.content-img .img-card{
+    background: url('../img/img-card.png') no-repeat center;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    margin: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
 }
+
 
 .content-cards .cards .content-info {
     padding: 15px 10px;
 }
 
 .button-info {
-    background: #4b254e !important;
+    background: #816FE8 !important;
     color: white !important;
-    padding: 8px !important;
+    padding: 10px !important;
+    margin-top: 20px;
 }
 
 .button-info:hover {
     background: #5f2f63 !important;
-}
-
-.content-cards .cards .content-info ul li {
-    list-style: none;
-    padding: 3px 0;
 }
 
 
@@ -173,18 +197,53 @@
 
 .content-contact .button-contact {
     background: #4b254e;
-    padding: 10px 60px;
+    padding: 7px 60px;
     color: white;
 }
 
 .content-contact .button-contact:hover {
-    background: #5f2f63;
+    background: #816FE8 !important ;
     color: white;
 }
 
 
 /* footer */
 
+
+footer{
+    background: linear-gradient( rgba(81, 63, 180, 0.575), rgb(95, 47, 96)), url('../img/img-footer.png')  center;
+     padding: 50px;
+ }
+ 
+ .footer h6,
+ .footer .col-12{
+   color: white;
+   font-size: 20px;
+ }
+ 
+ .list-items a{
+   color: white;
+   font-size: 20px;
+   cursor: pointer;
+   text-decoration: none;
+
+ }
+ 
+.list-items a:hover{
+    color: white;
+
+}
+
+.btn-icone{
+    font-size: 20px !important;
+    color: white !important;   
+    text-decoration: none;
+}
+
+.btn-icone:hover{
+    background-color: white !important ;
+    color: #5f2f63 !important;
+}
 
 /* tipografia */
 
