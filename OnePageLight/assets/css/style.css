@@ -50,7 +50,8 @@ body{
 .container-1 h1{
     text-align: center;
     padding-top: 250px;
-    color: #C98C81;
+    color: white;
+    text-shadow: 2px 1px #C98C81;
     font-family: 'Acme', sans-serif;
 }
 
