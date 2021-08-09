@@ -124,13 +124,13 @@ align-self: center;
 }
 
 .btn-click{
-background-color: #696969;
-color: white;
+background-color: white;
+color: #B22222;
 border-radius: 30px !important;
 }
 
 .btn-click:hover{
-color: white;
+color: #696969;
 }
 
 .btn-icone{

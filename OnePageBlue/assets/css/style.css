@@ -16,7 +16,6 @@ body{
   color: white;
 }
 
-
 .nav-item a{
     color: 	white;
     text-decoration: none;
@@ -37,7 +36,7 @@ body{
   
 }
 
-/*ITEM-1 */
+/*Carousel */
 
 .carousel-img-1{
     background: url('../img/img-1.jpg') no-repeat center center; 
@@ -57,7 +56,61 @@ body{
     background-size: cover;
  }
 
-/*ITEM-2 */
+/*Informações*/
+
+ .text-claro {
+  background-color: #6494edbb;
+  padding: 20px 40px;
+  color: white;
+  font-family: 'Acme', sans-serif;
+}
+.text-medio{
+  background-color: #6495ED;
+  padding: 20px 40px;
+  color: white;
+  font-family: 'Acme', sans-serif;
+}
+
+.text-medio2 {
+  background-color: #1983b1;
+  padding: 20px 40px;
+  color: white;
+  font-family: 'Acme', sans-serif;
+}
+
+
+.text-escuro {
+  background-color: #09729E;
+  padding: 20px 40px;
+  color: white;
+  font-family: 'Acme', sans-serif;
+}
+
+/*Sobre*/
+
+.background-sobre{
+  background: linear-gradient(rgba(169, 169, 169, 0.356), rgba(169, 169, 169, 1)), url("../img/img-3.jpg");
+  height: 80vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-sobre h2{
+  margin-top: 60px;
+  color: #09729E;
+  font-family: 'Acme', sans-serif;
+}
+
+.background-sobre p{
+  padding: 5px 0px;
+  color: #09729E;
+  font-family: 'Acme', sans-serif;
+}
+
+
+/*Especialidades */
 
 .container-2{
   padding: 60px;
@@ -69,38 +122,39 @@ body{
   align-self: center;
 }
 
-.container-2 p{
+.container-especialidades p{
   padding: 30px;
   text-align: center;
   color: #696969;
   font-family: 'Acme', sans-serif;
 }
 
-.container-2 h2{
+.container-especialidades h2{
     padding: 20px;
     color: #696969;
  font-family: 'Acme', sans-serif;
 }
 
 
-/*ITEM 3 */
+/*Contato */
 
-#item-3{
+.background-contato{
     background-color: 	#6495ED;
+    padding: 20px 0px;
 }
 
 .img-fluid{
   padding: 40px;
 }
 
-#item-3 h2{
+.background-contato h2{
     padding-top: 80px;
     color: white;
- font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 
-#item-3 p{
+.background-contato p{
     padding-top: 10px;
     color: white;
     font-family: 'Acme', sans-serif;
@@ -111,7 +165,12 @@ body{
 /*Footer*/
 
 footer{
-   background: linear-gradient( rgba(24, 92, 170, 0.904), rgb(39, 57, 95)), url('../img/img-footer.jpg')  center;
+  background: linear-gradient(rgba(169, 169, 169, 0.356), rgba(169, 169, 169, 1)), url("../img/img-3.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   color: white;
     padding: 50px;
 }
 
