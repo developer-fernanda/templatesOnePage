@@ -69,18 +69,27 @@
 .content-info {
     background-color: rgba(255, 0, 0, 0.39);
     color: white;
-    padding: 50px 0;
+}
+
+.content-info .col-md-4:hover {
+    /* background-color: rgba(26, 20, 20, 0.829); */
+    background-color: rgba(109, 1, 1, 0.39);
+    color: white;
 }
 
 .content-info h2 {
     padding-bottom: 20px;
 }
 
-.content-info p,
-.content-info ul,
-.card-text {
-   font-size: 20px;
-   text-align: justify;
+.content-info i{
+    padding: 50px 0px;
+   font-size: 50px;
+   text-align: center;
+}
+
+.content-info p{
+    text-align: center;
+    font-size: 17px;
 }
 
 
@@ -109,7 +118,7 @@
 }
 
 .section-contact{
-    background: linear-gradient(rgba(88, 70, 70, 0.226), rgba(255, 0, 0, 0.39)), url("../img/background.jpg");
+    background: linear-gradient(rgba(26, 20, 20, 0.829), rgba(255, 0, 0, 0.39)), url("../img/background2.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

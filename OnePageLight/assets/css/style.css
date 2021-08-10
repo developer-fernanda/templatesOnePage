@@ -11,9 +11,8 @@ body{
 }
 
 .estilo-nav{
-    background-color: 	#51E0C1;
-    color: 	#008080;
-    border-bottom: 2px solid #008080;
+    background-color: 	#7e4376;
+    color: 	white;
 }
 
 .nav-item{
@@ -21,7 +20,7 @@ body{
   }
 
 .nav-item a{
-    color: 	#008080;
+    color: 	white;
     text-decoration: none;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
@@ -39,20 +38,30 @@ body{
 
 /*ITEM-1 */
 #item-1{
-    background: url('../img/background.png') no-repeat ;
-    height: 80vh;
+    background: url('../img/background.jpg') no-repeat center;
+    height: 90vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.container-1 p{
+    text-align: start;
+    padding: 8px 0px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
 .container-1 h1{
-    text-align: center;
+    text-align: start;
     padding-top: 250px;
     color: white;
-    text-shadow: 2px 1px #C98C81;
     font-family: 'Acme', sans-serif;
+}
+.container-1 .btn-light{
+    padding: 10px;
+    text-align: start;
 }
 
 /*ITEM-2 */
