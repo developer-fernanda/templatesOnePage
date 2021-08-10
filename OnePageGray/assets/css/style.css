@@ -1,13 +1,10 @@
 /* layout */
 
-@font-face {
-    font-family: Barrio;
-    src: url(https://fonts.google.com/specimen/Noto+Sans+JP#standard-styles)
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 .body {
-    font-family: Thin;
-    background-color: #D3D3D3;
+    font-family: 'Lato', sans-serif;
+    background-color: #1C1C1C;
 }
 
 
@@ -15,7 +12,7 @@
 
 .content-navbar {
     width: 100% !important;
-    background-color: rgba(51, 51, 51, 0.6);
+    background-color: rgba(255, 0, 0, 0.39) !important;
     padding: 0 20px !important;
 }
 
@@ -25,17 +22,31 @@
     height: 30px;
 }
 
-.bi-github {
-    width: 50px;
-    height: 50px;
+.navbar i{
     color: white;
+    font-size: 30px;
 }
 
 .items-list {
     margin-right: 100px;
 }
 
+.nav-list .items-list a {
+    color: white;
+    padding: 20px 20px!important;
+    margin: auto 25px;
+    font-size: 18px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+}
 
+.nav-list .items-list a:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.btn-click{
+    color: white !important;
+    background-color: rgba(255, 0, 0, 0.315) !important;
+}
 /* content banner */
 
 .content-banner {
@@ -56,7 +67,8 @@
 /* content info */
 
 .content-info {
-    background-color: white;
+    background-color: rgba(255, 0, 0, 0.39);
+    color: white;
     padding: 50px 0;
 }
 
@@ -79,11 +91,6 @@
     margin-bottom: 150px;
 }
 
-.content-card {
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-
 .card-form {
     transition: all 2s;
 }
@@ -92,11 +99,31 @@
     transform: scale(1.05);
 }
 
+.content-card .card{
+    background-color: rgba(255, 0, 0, 0.39) !important;
+    color: white;
+}
+
+.content-card .card p{
+    padding: 20px;
+}
+
+.section-contact{
+    background: linear-gradient(rgba(88, 70, 70, 0.226), rgba(255, 0, 0, 0.39)), url("../img/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 80px;
+    color: white;
+    font-size: 30px;
+}
+
 
 /* content footer */
 
 .content-footer {
-    background-color: #333;
+    background-color: #171717;
     height: 100%;
     width: 100%;
 }
@@ -120,23 +147,8 @@
 }
 
 
-/* tipografia */
-
-.nav-list .items-list a {
-    color: white;
-    padding: 20px 35px!important;
-    margin: auto 25px;
-    font-size: 18px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0);
-}
-
-.nav-list .items-list a:hover {
-    background-color: rgb(70, 70, 70);
-    border-bottom: 5px solid white;
-}
-
 .content-footer h2{
-    color: white;
+    color: rgba(255, 0, 0, 0.39);
     font-size: 25px;
     text-align: justify;
 }
