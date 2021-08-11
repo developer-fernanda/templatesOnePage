@@ -118,6 +118,16 @@
     vertical-align: middle;
 }
 
+.info-card{
+    margin-top: -80px;
+    background-color: #816FE8;
+}
+
+.info-card p{
+  padding: 100px 150px;
+}
+
+
 
 /* content card */
 
