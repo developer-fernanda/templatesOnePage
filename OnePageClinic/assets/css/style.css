@@ -9,6 +9,8 @@ body{
 
 .logo{
     width: 50px;
+    animation: App-logo-spin infinite 20s linear;
+
 }
 
 .estilo-nav{
@@ -95,6 +97,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 
 .background-sobre h2{

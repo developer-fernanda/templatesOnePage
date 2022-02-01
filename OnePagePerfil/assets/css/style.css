@@ -1,0 +1,348 @@
+body{
+    font-family: 'Otomanopee One', sans-serif !important;
+}
+
+
+/* header Icones */
+
+header {
+    background: #3e68b0;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header a{
+    color: white;
+}
+
+.header a:hover {
+    background: white;
+    color: #3e68b0;
+}
+
+
+.header .icons {
+    margin: 0px 10px;
+    padding: 10px 10px;
+    text-decoration: none !important;
+
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: center !important;
+    }
+    .header .icons {
+        margin: 0px 10px;
+        padding: 10px 10px;
+    }
+}
+
+
+/* Nav Principal */
+
+.logo>img{
+    height: 50px !important; 
+    
+}
+
+.navbar{
+    box-shadow: 0 2px 4px 0 #3e68b098;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+    border-bottom: 4px solid #80808000;
+}
+
+.nav-link:hover{
+      color: #3e68b0 !important;
+    font-size: 20px;
+    border-bottom: 4px solid #3e68b0;
+}
+
+/* Carousel*/
+
+.carousel-background{
+    background-color: #3e68b0;
+}
+
+.carousel-img-1{
+    background: url("../../assets/img/carousel-1.gif") no-repeat center ; 
+    height: 85vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-img-2{
+    background: url('../../assets/img/carousel-2.gif') no-repeat center;
+    height: 85vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#gif{
+    background-color: #3e68b0;
+}
+
+#gif .col-12{
+    padding: 20px 0px;
+}
+
+
+.carousel-control-prev>i,
+.carousel-control-next>i{
+    color: white;
+    font-size: 50px;
+}
+
+
+/* Sobre*/
+
+#section-sobre{
+  padding: 60px;
+}
+
+#sobre h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #3e68b0;
+    text-align: center;
+    font-family:  'Otomanopee One', sans-serif !important;
+}
+
+.img-sobre{
+    height: 550px;
+    width: 550px;
+}
+
+.btn-sobre{
+    color: #3e68b0;
+    border: 1px solid #3e68b0 !important;
+    font-size: 20px;
+    margin-top: 10px ;
+}
+
+.btn-sobre:hover{
+    background-color: #3e68b0;
+    color: white;
+}
+
+.text-sobre{
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: justify;
+    color: #808080;
+}
+
+/* Vamos Conversar*/
+
+#section-conversar{
+    background-color: #3e68b0;
+    padding: 60px;
+}
+
+.conversar h5{
+    color: white;
+}
+
+
+/* Potfólio*/
+
+/* #section-portfolio{
+    padding: 60px;
+}
+
+#section-portfolio h1{
+   text-align: center;
+   color: #3e68b0;
+}
+
+#section-portfolio p{
+    text-align: center;
+    color: #808080;
+ }
+
+.card{
+    margin-top: 50px;
+}
+
+.btn-click{
+    color: #3e68b0;
+    border: 1px solid #3e68b0 !important;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.btn-click:hover{
+    background-color: #3e68b0;
+    color: #ffffff;
+    border: 1px solid white !important;
+}
+ */
+
+ .btn-click{
+    color: #3e68b0;
+    border: 1px solid #3e68b0 !important;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.btn-click:hover{
+    background-color: #3e68b0;
+    color: #ffffff;
+    border: 1px solid white !important;
+}
+ 
+
+/* Contato*/
+
+#section-contato{
+    background-image: url('../../assets/img/background.png') ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 100px 50px;
+}
+
+#contato h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #3e68b0;
+    text-align: center;
+    font-family:  'Otomanopee One', sans-serif !important;
+}
+
+
+#contato p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #808080;
+    text-align: center;
+    font-family:  'Otomanopee One', sans-serif !important;
+}
+
+
+.form{
+    font-family: 'Otomanopee One', sans-serif !important;
+    color:#3e68b0b4;
+}
+
+/* small Screens -   ************************************************************************/
+
+@media only screen and (max-width: 768px) {
+    .form{
+        width: 300px;
+        margin: auto;
+        font-family:  'Otomanopee One', sans-serif !important;
+        color:#3e68b0b4 !important;
+    }
+} 
+
+
+
+/* Media / Large Screens *****************************************************************************/
+
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+    form{
+        width: 600px;
+        margin: auto;
+        font-family:  'Otomanopee One', sans-serif !important;
+        color:#3e68b0b4 !important;
+    }
+}
+
+
+/* Extra Large Screens ***********************************************************************/
+
+@media only screen and (min-width: 1441px) {
+    form{
+        width: 700px;
+        margin: auto;
+        font-family: 'Otomanopee One', sans-serif !important;
+        color:#3e68b0b4;
+    }
+}
+
+/*Footer*/
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color:#363636;
+    color: #ffffff;
+    font-family:  'Otomanopee One', sans-serif !important;
+}
+
+hr{
+    border: 1px solid #ffffff !important;
+}
+
+.btn-redes-sociais{
+    border: 1px solid #ffffff !important;
+    background-color: #ffffff;
+    color: #363636;
+    border-radius: 25px !important;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-redes-sociais:hover{
+    border: 1px solid #ffffff !important;
+    color: #ffffff;
+    background-color: #363636;
+}
+
+#footer_sobre>ul>li>a,
+#footer_nav>ul>li>a{
+margin-bottom: 10px;
+color: #ffffff;
+text-decoration: none;
+}
+
+#footer_nav>ul>li>a:hover{
+border-bottom: 2px solid white;
+}
+
+#footer_sobre{
+    font-size: 13px !important;
+    color: #ffffff;
+}
+
+.botoes-flutuantes {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #808080;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.botoes-flutuantes>i {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.nav-scroll{
+    background-color: #ffffff;  
+    /* box-shadow: 3px 3px 2px #808080;   */
+}
