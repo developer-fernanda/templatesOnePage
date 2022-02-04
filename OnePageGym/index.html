@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Page Gray</title>
+    <title>One Page Gym</title>
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- bootstrap css -->
@@ -22,10 +22,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- icone -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg>
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse nav-list" id="navbarNavAltMarkup">
                 <hr>
@@ -72,19 +69,19 @@
                 <h3>SERVIÇOS</h3>
                 
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-6 col-lg-4 text-center mb-3">
                 <div class="card card-form">
                     <img src="assets/img/img-3.jpg" class="img-fluid" alt="">
                     <h4>Musculação </h4>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-6 col-lg-4 text-center mb-3">
                 <div class="card card-form">
                     <img src="assets/img/img-1.png" class="img-fluid" alt="">
                     <h4> Pilates </h4>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-6 col-lg-4  text-center mb-3">
                 <div class="card card-form">
                     <img src="assets/img/img-2.png" class="img-fluid" alt="">
                     <h4> Zumba</h4>
@@ -101,43 +98,44 @@
                 <h3>CONTATO</h3>
             </div>
         </div>
-        <div class="d-flex">
-            
-            <div class="col-md-6">
-                <img src="assets/img/img-contato.png" alt="imagem-form">
-            </div>
-            <!--Form-->
-            <div class="col-md-6">
-                <div class="col-12"> 
-                    <form action="/contato" method="post" role="form" class="form_contato" name="form_contato">
-                        <div class="row form-group">
-                            <div class="col-md-6 mt-2">
-                                <label for="id_nome">Nome</label>
-                                <input required="" type="text" id="id_nome" name="nome" placeholder="Digite seu nome"
-                                    value="" class="form-control ">
-                            </div>
-                            <div class="col-md-6 mt-2">
-                                <label for="id_telefone">Telefone</label>
-                                <input required="" type="email" id="id_telefone" name="telefone"
-                                    placeholder="Digite seu telefone" value="" class="form-control ">
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label for="message">Mensagem</label>
-                                <textarea required="" id="id_mensagem" name="mensagem" cols="30" rows="7"
-                                    placeholder="Digite aqui sua mensagem ..." class="form-control "></textarea>
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col-md-12 mt-4 ">
-                                <button class="btn btn-dark" >ENVIAR</button>
-                            </div>
-                        </div>
-                    </form>
+  <div class="row">
+    <div class="col-lg-6">
+        <img src="assets/img/img-contato.png" alt="imagem-form">
+    </div>
+    <!--Form-->
+    <div class="col-lg-6">
+        <div class="col-12"> 
+            <form action="/contato" method="post" role="form" class="form_contato" name="form_contato">
+                <div class="row form-group">
+                    <div class="col-md-6 mt-2">
+                        <label for="id_nome">Nome</label>
+                        <input required="" type="text" id="id_nome" name="nome" placeholder="Digite seu nome"
+                            value="" class="form-control ">
+                    </div>
+                    <div class="col-md-6 mt-2">
+                        <label for="id_telefone">Telefone</label>
+                        <input required="" type="email" id="id_telefone" name="telefone"
+                            placeholder="Digite seu telefone" value="" class="form-control ">
+                    </div>
                 </div>
-            </div>
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label for="message">Mensagem</label>
+                        <textarea required="" id="id_mensagem" name="mensagem" cols="30" rows="7"
+                            placeholder="Digite aqui sua mensagem ..." class="form-control "></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-12 mt-4 ">
+                        <button class="btn btn-dark" >ENVIAR</button>
+                    </div>
+                </div>
+            </form>
         </div>
+    </div>
+  </div>
+            
+        
     </section>
     <!-- end section -->
 

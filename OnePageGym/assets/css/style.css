@@ -34,6 +34,7 @@
 
 .nav-list .items-list a:hover {
     border-bottom: 2px solid #BD9E28;
+    color: #BD9E28;
 }
 
 .btn-click{
@@ -130,9 +131,6 @@
     color: white;
 }
 
-.content-card .card p{
-    padding: 20px;
-}
 
 /* section content-contact-form */
 
