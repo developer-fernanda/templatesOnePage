@@ -12,7 +12,9 @@
     margin-top: 20px;
 }
 
-/* content navbar */
+/**********************
+****content navbar**** 
+**********************/
 
 .content-navbar {
     padding: 0 10px !important;
@@ -30,6 +32,7 @@
     font-weight: 600;
     font-size: 18px;
     margin-left: 50px;
+    border-bottom: 2px solid #bd9f2800;
 }
 
 .nav-list .items-list a:hover {
@@ -41,12 +44,15 @@
     color: white !important;
     background-color: #54545F !important;
 }
-/* content banner */
+
+/**********************
+****content banner**** 
+**********************/
 
 @media (max-width: 991.98px) {
     .content-banner {
         background: url('../img/banner.jpg') no-repeat center;
-        height: 100vh;
+        height: 95vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -57,7 +63,7 @@
 @media (min-width: 992px) {
     .content-banner {
         background: url('../img/banner.jpg') no-repeat;
-        height: 100vh;
+        height: 95vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -66,7 +72,6 @@
 }
 
  
-
 .content-banner h2 {
     display: flex;
     color: white;
@@ -95,7 +100,10 @@
     color: white !important;
 }
 
-/* contact */
+/**********************
+****content contact**** 
+**********************/
+
 
 .section-contact{
     background: #BD9E28;
@@ -104,7 +112,9 @@
     font-size: 25px;
 }
 
-/* content card */
+/**********************
+content card - serviços 
+**********************/
 
 .content-card h2, .content-contact-form h2{
     color: #BD9E28;
@@ -118,7 +128,6 @@
     font-size: 80px;
     margin-top: -130px;
     font-weight: 900;
-    margin-bottom: 100px;
 }
 
 .content-card h4{
@@ -126,6 +135,11 @@
     font-size: 30px;
     font-weight: 700;
     padding: 30px;
+}
+
+.content-card p{
+    color: #54545F;
+    margin-bottom: 100px;
 }
 
 .content-card {
@@ -146,8 +160,9 @@
     color: white;
 }
 
-
-/* section content-contact-form */
+/**********************
+*content-contact-form * 
+**********************/
 
 .content-contact-form h3{
     color: #54545f48;
@@ -157,7 +172,7 @@
 }
 
 .content-contact-form p{
-    color: #D3D3D3;
+    color: #54545F;
     margin-bottom: 100px;
 }
 
@@ -177,8 +192,9 @@
     color: white;
 }
 
-
-/* content footer */
+/**********************
+****content footer ****
+**********************/
 
 .content-footer {
     background-color: #171717;
