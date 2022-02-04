@@ -2,7 +2,7 @@
 
 
 body{
-   font-family: 'Merriweather', serif !important;
+  font-family: 'Acme', sans-serif !important;
 }
 
 /*NAV */
@@ -11,6 +11,11 @@ body{
     width: 50px;
     animation: App-logo-spin infinite 20s linear;
 
+}
+
+.container-header {
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
 }
 
 .estilo-nav{
@@ -41,7 +46,7 @@ body{
 /*Carousel */
 
 .carousel-img-1{
-    background: url('../img/img-1.jpg') no-repeat center center; 
+    background: url('../img/img-4.jpg') no-repeat center center; 
     height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,7 +55,7 @@ body{
   }
 
 .carousel-img-2{
-    background: url('../img/img-2.jpg') no-repeat center center ; 
+    background: url('../img/img-6.jpg') no-repeat center center ; 
     height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -91,8 +96,8 @@ body{
 /*Sobre*/
 
 .background-sobre{
-  background: linear-gradient(rgba(169, 169, 169, 0.356), rgba(169, 169, 169, 1)), url("../img/img-3.jpg");
-  height: 80vh;
+  background: linear-gradient(rgba(169, 169, 169, 0.356), rgba(169, 169, 169, 0.63)), url("../img/img-8.png");
+  height: 120vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -101,14 +106,17 @@ body{
 }
 
 .background-sobre h2{
-  margin-top: 60px;
-  color: #09729E;
-  font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    color: #09729E;
+    font-family: 'Acme', sans-serif;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .background-sobre p{
-  padding: 5px 0px;
-  color: #09729E;
+  font-size: 20px;
+  color: #363636;
   font-family: 'Acme', sans-serif;
 }
 
@@ -116,6 +124,10 @@ body{
   color: #09729E;
   border: 1px solid #09729E !important;
   background-color: #09719e00;
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+
 }
 
 .btn-modal:hover{
@@ -126,18 +138,26 @@ body{
 
 .modal-title{
   color: #09729E;
+  font-family: 'Acme', sans-serif;
+}
+
+.modal-body{
+  font-family: 'Acme', sans-serif;
 }
 
 /*Especialidades */
 
-.container-2{
-  padding: 60px;
+.container-especialidades {
+  margin-top: 100px;
 }
 
-.icone{
-  color: #6495ED;
-  font-size: 60px;
-  align-self: center;
+.container-especialidades h2{
+    padding: 20px;
+    font-size: 80px;
+    padding-bottom: 100px;
+    color: #696969;
+    font-family: 'Acme', sans-serif;
+    font-weight: 900;
 }
 
 .container-especialidades p{
@@ -147,17 +167,32 @@ body{
   font-family: 'Acme', sans-serif;
 }
 
-.container-especialidades h2{
-    padding: 20px;
-    color: #696969;
- font-family: 'Acme', sans-serif;
+
+.iconeClaro{
+  color: #6494edbb;
+  font-size: 60px;
+  align-self: center;
 }
+
+.iconeMedio{
+  color: #1983b1;
+  font-size: 60px;
+  align-self: center;
+}
+
+.iconeEscuro{
+  color: #09729E;
+  font-size: 60px;
+  align-self: center;
+}
+
+
 
 /*Contato */
 
 .background-contato{
-    background-color: 	#6495ED;
-    padding: 20px 0px;
+    background: linear-gradient(rgba(66, 56, 56, 0.835), rgba(54, 44, 44, 0.863)), url("../img/img-7.png");
+    padding: 100px 0px;
 }
 
 .img-fluid{
@@ -165,17 +200,28 @@ body{
 }
 
 .background-contato h2{
-    padding-top: 80px;
-    color: white;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #fff;
     font-family: 'Acme', sans-serif;
+    font-weight: 900;
 }
 
-.background-contato p{
-    padding-top: 10px;
-    color: white;
-    font-family: 'Acme', sans-serif;
-    text-align: justify;
+.background-contato h3{
+  padding-top: 20px;
+  font-size: 35px;
+  color: 	#DCDCDC;
+  font-family: 'Acme', sans-serif;
+  font-weight: 900;
 }
+
+.form_contato{
+  padding-top: 20px;
+  color: 	#DCDCDC;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+}
+
 
 /*Cards */
 
@@ -197,25 +243,27 @@ body{
 /*Footer*/
 
 footer{
-  background: linear-gradient(rgba(169, 169, 169, 0.356), rgba(169, 169, 169, 1)), url("../img/img-3.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #08192B;
    color: white;
     padding: 50px;
 }
 
-.footer h6,
-.footer .col-12{
+.footer h6{
  font-family: 'Acme', sans-serif;   
-  color: #09729E;
-  font-size: 20px;
+  color: white;
+  font-size: 30px;
+  margin-left: -12px;
+}
+
+.footer .col-12{
+  font-family: 'Acme', sans-serif;   
+  color: white;
+  font-size: 15px;
 }
 
 .list-items a{
- font-family: 'Acme', sans-serif;   
-  color: #09729E;
+  font-family: 'Acme', sans-serif;   
+  color: white;
   font-size: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -223,8 +271,7 @@ footer{
 
 .list-items a:hover{
   font-family: 'Acme', sans-serif;   
-  color: #6495ED;
-  /* border-bottom: 1px solid #6495ED; */
+  color: white;
 }
 
 .btn-icone{
