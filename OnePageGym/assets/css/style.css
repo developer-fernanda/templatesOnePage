@@ -1,56 +1,49 @@
 /* layout */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-
 .body {
     font-family: 'Lato', sans-serif;
     background-color: #1C1C1C;
 }
 
+.header{
+    color: #BD9E28;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
 
 /* content navbar */
 
 .content-navbar {
-    width: 100% !important;
-    background-color: rgba(255, 0, 0, 0.39) !important;
-    padding: 0 20px !important;
+    padding: 0 10px !important;
 }
 
-.bi-list {
-    color: #D3D3D3;
-    width: 30px;
-    height: 30px;
-}
 
 .navbar i{
-    color: white;
-    font-size: 30px;
+    color: #BD9E28;
+    font-size: 40px;
 }
 
-.items-list {
-    margin-right: 100px;
-}
 
 .nav-list .items-list a {
-    color: white;
-    padding: 20px 20px!important;
-    margin: auto 25px;
+    color: 	#D3D3D3;
+    font-weight: 600;
     font-size: 18px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    margin-left: 50px;
 }
 
 .nav-list .items-list a:hover {
-    background-color: rgb(70, 70, 70);
+    border-bottom: 2px solid #BD9E28;
 }
 
 .btn-click{
     color: white !important;
-    background-color: rgba(255, 0, 0, 0.315) !important;
+    background-color: #54545F !important;
 }
 /* content banner */
 
 .content-banner {
-    background: url('../img/background.jpg') no-repeat center;
+    background: url('../img/banner.jpg') no-repeat center;
     height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,42 +51,66 @@
     background-size: cover;
 }
 
-.content-banner h1 {
-    padding-top: 300px;
+.content-banner h2 {
+    display: flex;
     color: white;
+    padding-top: 250px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
-
-/* content info */
-
-.content-info {
-    background-color: rgba(255, 0, 0, 0.39);
-    color: white;
+.content-banner span{
+    color: #BD9E28;
+    font-size: 40px;
+    margin-left: 5px;
+    font-weight: 900;
 }
 
-.content-info .col-md-4:hover {
-    /* background-color: rgba(26, 20, 20, 0.829); */
-    background-color: rgba(109, 1, 1, 0.39);
-    color: white;
+.content-banner h3 {
+    display: flex;
+    color: 	#D3D3D3;
+    font-size: 20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
 }
 
-.content-info h2 {
-    padding-bottom: 20px;
+.btn-outline-dark{
+    color: white !important;
 }
 
-.content-info i{
-    padding: 50px 0px;
-   font-size: 50px;
-   text-align: center;
-}
+/* contact */
 
-.content-info p{
-    text-align: center;
-    font-size: 17px;
+.section-contact{
+    background: #BD9E28;
+    padding: 30px;
+    color: #1C1C1C;
+    font-size: 25px;
 }
-
 
 /* content card */
+
+.content-card h2, .content-contact-form h2{
+    color: #BD9E28;
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-weight: 900;
+}
+
+.content-card h3, .content-contact-form h3{
+    color: #54545f48;
+    font-size: 80px;
+    margin-top: -130px;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
+.content-card h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+}
 
 .content-card {
     margin-top: 150px;
@@ -109,7 +126,7 @@
 }
 
 .content-card .card{
-    background-color: rgba(255, 0, 0, 0.39) !important;
+    background-color: #BD9E28 !important;
     color: white;
 }
 
@@ -117,15 +134,22 @@
     padding: 20px;
 }
 
-.section-contact{
-    background: linear-gradient(rgba(26, 20, 20, 0.829), rgba(255, 0, 0, 0.39)), url("../img/background2.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 80px;
+/* section content-contact-form */
+
+.content-contact-form{
+    margin-bottom: 100px;
+}
+
+.form_contato label{
+    color: #BD9E28;
+    font-size: 15px;
+}
+
+.form_contato input, .form_contato textarea {
+    background-color: #54545f48;
+    border: none;
+    font-size: 15px;
     color: white;
-    font-size: 30px;
 }
 
 
@@ -142,13 +166,14 @@
 }
 
 .box-acess ul a li {
-    margin: 4px;
+    margin: 6px;
 }
 
 .box-acess ul a li:hover,
 .contact:hover {
     color: #D3D3D3;
 }
+
 
 .contact {
     text-decoration: none;
@@ -157,9 +182,8 @@
 
 
 .content-footer h2{
-    color: rgba(255, 0, 0, 0.39);
-    font-size: 25px;
-    text-align: justify;
+    color: #BD9E28;
+    font-size: 20px;
 }
 
 
@@ -169,19 +193,15 @@
     color: white;
     font-size: 20px;
     text-align: justify;
+    text-decoration: none !important;
 }
 
 hr {
     background: #D3D3D3
 }
 
-.content-footer a {
-    color: white;
-    text-decoration: none !important;
-}
-
 .content-footer .col-12{
     margin-bottom: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
