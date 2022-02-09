@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+body{
+  font-family: 'Acme', sans-serif !important;
+}
+
+/*******************
+*********NAV *******
+********************/
+
+.container-header i{
+   color: #19B1E2;
+   font-size: 30px;
+   
+
+}
+
+.container-header {
+  color: #19B1E2;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.container-header span {
+  color: #F5B120;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.estilo-nav{
+  color: white;
+}
+
+.nav-item a{
+    color: 	#F5B120;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #F5B120;
+    border-radius: 4px;
+  
+}
+
+/*Carousel */
+
+.carousel-img-1{
+    background: url('../img/carousel-1.jpg') no-repeat center center; 
+    height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-img-2{
+    background: url('../img/img-carousel-2.png') no-repeat center center ; 
+    height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+/*Fotos*/
+
+.container-foto{
+   background: url('../img/img-foto.jpg') no-repeat center center ; 
+    height: 40vh;
+    margin-top: 100px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.container-foto h2{
+  font-size: 50px;
+  color: #F5B120;
+  display: block;
+  padding-right: 15px;
+  text-align: end; 
+  padding-top: 40px
+}
+
+.container-foto h3{
+  font-size: 70px;
+  color: #F5B120;
+  display: block;
+  padding-right: 15px;
+  text-align: end; 
+}
+
+
+.container-foto span{
+  font-size: 30px;
+}
+ 
+/*************
+******Sobre***
+**************/
+
+.img-sobre{
+  height: 70vh;
+  margin-top: -70px;
+}
+
+.background-sobre h2{
+    font-size: 60px;
+    color: #19B1E2;
+    font-family: 'Acme', sans-serif;
+    font-weight: 900;
+    margin-top: 100px;
+   
+}
+
+.container-sobre h4, .container-servicos h4{  
+  color: #808080;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.container-sobre p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #363636;
+  font-family: 'Acme', sans-serif;
+  text-align: justify;
+}
+
+.container-sobre span{
+  background-color: #2BB24C;
+  color: white;
+  border-radius: 4px;
+  margin-right: 2px;
+  padding: 4px;
+  font-size: 35px;
+}
+
+.container-sobre .principe{
+  font-size: 60px;
+  transform: rotateZ(330deg);
+  color: #F5B120;
+
+}
+
+.btn-modal{
+  color: #2BB24C;
+  border: 1px solid #2BB24C !important;
+  background-color: #09719e00;
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+
+}
+
+.btn-modal:hover{
+  color: white;
+  border: 1px solid #19B1E2 !important;
+  background-color: #19B1E2;
+}
+
+.modal-title{
+  color: #19B1E2;
+  font-family: 'Acme', sans-serif;
+}
+
+.modal-body{
+  font-family: 'Acme', sans-serif;
+}
+
+/*******************
+***Serviços***
+********************/
+
+.container-servicos {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-servicos h2{
+    font-size: 60px;
+    color: #EA624C;
+    font-family: 'Acme', sans-serif;
+    font-weight: 900;
+}
+
+
+/*Cards */
+
+.card-box{
+  margin: 30px 10px;
+  
+}
+
+.card-verde{
+  background-color: #2BB24C !important;
+  
+}
+
+.card-vermelho{
+  background-color: #EA624C !important;
+  
+}
+
+.card-laranja{
+  background-color: #F5B120 !important;
+  
+}
+
+.card-img-top{
+  width:100%;
+}
+
+.card-title{
+  color: white;
+  font-size: 30px;
+}
+
+
+
+/***************
+*****Contato****
+****************/
+
+.section-EntreContato{
+    background: #19B1E2;
+    padding: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.background-contato{
+    padding-bottom: 100px;
+}
+
+.container-contato .foto-contato{
+  background: url('../img/img-contato.png') no-repeat center center; 
+  height: 80vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -50px;
+}
+
+
+.container-contato h2{
+  font-size: 60px;
+  color: #F5B120;
+  font-family: 'Acme', sans-serif;
+  font-weight: 900;
+}
+
+.container-contato h4{  
+  color: white;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.container-contato .principe{
+  margin-top: 100px;
+  font-size: 60px;
+  transform: rotateZ(330deg);
+  color: #F5B120;
+
+}
+
+.form_contato{
+  padding-top: 20px;
+  color: 	#DCDCDC;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+}
+
+.form_contato label{
+  color: #F5B120;
+}
+
+
+/******************
+*******Footer*****
+******************/
+
+footer{
+  background: #EA624C;
+   color: white;
+    padding: 50px;
+}
+
+footer .joka{
+  color: #F9EB1F;
+}
+
+.footer h6{
+ font-family: 'Acme', sans-serif;   
+  color: white;
+  font-size: 30px;
+}
+
+
+.footer a{
+  margin: 15px;
+}
+
+.footer i{
+  font-size: 25px;
+  padding: 2px;
+}
+
+.btn-icone{
+  background-color: white ;
+  border-radius: 15px !important;
+  border: 3px solid white !important;
+  background-color: #19B1E2;
+  color: white;
+  text-decoration: none;
+  /* transform: rotateZ(10deg); */
+  
+}
+
+.btn-icone:hover{
+  background-color: gray;
+   color: white;
+}
+
+.footer .col-12{
+padding-top: 30px;
+}
